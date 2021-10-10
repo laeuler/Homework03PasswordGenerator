@@ -38,11 +38,13 @@ function generatePassword() {
   //console.log("clicked the button")
   //Prompt the user for the password criteria
   var pwLength = prompt(
-    "How long should your password be? (from 8 to 128 characters)"
+    "How long should your password be? (please choose 8 to 128 characters)"
   );
   //check if proper number in given interval
   if (pwLength < 8 || pwLength > 128 || isNaN(pwLength)) {
-    alert("please insert a valid number between 8 and 128");
+    alert(
+      "Your preference is not possible, please insert a valid number between 8 and 128"
+    );
     generatePassword();
     return;
   }
