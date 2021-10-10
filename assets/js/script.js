@@ -5,7 +5,7 @@ var generateBtn = document.querySelector("#generate");
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const lowerCase = "abcdefghijklmnopqrstuvwxyz";
 const numbers = "0123456789";
-const specialCharacters = "!@#$%^&*()_+=";
+const specialCharacters = "!#$%&()*+,-./:;<=>?@[]^_`{|}~";
 
 //Functions to choose random character from predefined Arrays
 function chooseUpperCase() {
