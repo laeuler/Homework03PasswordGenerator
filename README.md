@@ -24,7 +24,7 @@ Repository used to hand in the homework from week 3 (Password Generator)
    - simplicity approach: almost even distribution of character types
    - last step: shuffle the created string to prevent easy predictability and increase security
 
-Note: I had test runs (1 out of approx. 25), where a password with 128 characters has been created properly (logged it to the console) but the result of the shuffle was undefined.
+Note: I had test runs (1 out of approx. 50), where a password has been created properly (logged it to the console) but the result after the shuffle was "undefined".
 
 # Mock-Up
 

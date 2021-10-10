@@ -100,14 +100,14 @@ function generatePassword() {
   console.log(createdPassword);
 
   //Shuffle created password to increase security, otherwise order of the characters would be easy to expect
-  createdPassword = createdPassword
+  shuffledPassword = createdPassword
     .split("")
     .sort(function () {
       return 0.5 - Math.random();
     })
     .join("");
   //return your password
-  return createdPassword;
+  return shuffledPassword;
 }
 
 // Add event listener to generate button
